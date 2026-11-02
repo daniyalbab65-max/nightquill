@@ -3211,19 +3211,16 @@ div[id="work"] {
   }
 
   .filters {
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     width: 100%;
-    overflow-x: auto;
-    border-radius: 16px;
-    scrollbar-width: none;
-  }
-
-  .filters::-webkit-scrollbar {
-    display: none;
+    overflow: visible;
+    border-radius: 18px;
   }
 
   .filter {
-    flex: 0 0 auto;
+    flex: 0 1 auto;
+    height: 40px;
+    padding: 0 14px;
   }
 
   .work-foot {
